@@ -3,7 +3,7 @@ if(isset($_POST["creat"])){
     if($_POST["pass"]){
         $token = bin2hex(random_bytes(16));
         mkdir($token,0777);
-        print("<input type='text' value='".$token."'>");
+        print("<input class='link' type='text' value='".$token."'>");
     }
     else{
         print("<p class='error'>şifre gir</p>");
