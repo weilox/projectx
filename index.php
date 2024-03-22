@@ -1,3 +1,14 @@
+<?php
+if(isset($_POST["creat"])){
+    if(isset($_POST["pass"])){
+        $token = bin2hex(random_bytes(16));
+        mkdir($token,0777);
+        print("<input type='text' value='".$token."'>");
+    }
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,16 +18,20 @@
     <title>Create Room</title>
 </head>
 <body>
+    <form action="index.php" method="POST">
     <main>
         <article>
             <div class="neon">
                 Hello,
             </div>
+            <input type="text" name="pass">
             <div class="buttonbox">
-                <button class="btn">Create Room</button>
+                <button name="creat" class="btn">Create Room</button>
             </div>
             
         </article>
     </main>
+</form>
 </body>
 </html>
+
