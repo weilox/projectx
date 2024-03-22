@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+:root {
+    --first-color: #151515;
+    --second-color: #fff;
+}
+
+::selection {
+    background-color: #fff;
+}
+
+body {
+    background-color: var(--first-color);
+}
+
+a {
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    height: 600px;
+    width: 600px; 
+}
+
+.neon {
+    animation: neonAnim 2s alternate-reverse infinite;
+    color: #007BFF;
+    font-family: Cursive;
+    font-size: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 10px rgba(0, 123, 255, .7),
+          0 0 40px rgba(0, 123, 255, .7),
+          0 0 100px rgba(0, 123, 255, .7);
+      }
+      to {
+        text-shadow:
+          0 0 5px rgba(0, 123, 255, .7),
+          0 0 20px rgba(0, 123, 255, .7),
+          0 0 60px rgba(0, 123, 255, .7);
+      }
+}
+
+.btn {
+    background-color: rgba(0, 123, 255, .7);
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 9px 30px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 15px;
+    font-family: cursive;
+    transition: .3s;
+    border: none;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.btn:hover {
+    background-color: rgba(0, 50, 255, .7);
+}
