@@ -1,12 +1,12 @@
 <?php
 if(isset($_POST["creat"])){
-    if(isset($_POST["pass"])){
+    if($_POST["pass"]){
         $token = bin2hex(random_bytes(16));
         mkdir($token,0777);
         print("<input type='text' value='".$token."'>");
     }
     else{
-        print("şifre gir");
+        print("<p class='error'>şifre gir</p>");
     }
 }
 
