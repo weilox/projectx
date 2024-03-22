@@ -5,6 +5,9 @@ if(isset($_POST["creat"])){
         mkdir($token,0777);
         print("<input type='text' value='".$token."'>");
     }
+    else{
+        print("şifre gir");
+    }
 }
 
 
