@@ -8,9 +8,11 @@
 </head>
 <body>
     <main>
-        <article class="users"></article>
-        <article class="chat"></article>
-        <article class="send"></article>
+        <aside></aside>
+        <div class="content">
+            <article class="chat"></article>
+            <article class="send"></article>
+        </div>
     </main>
 </body>
 </html>

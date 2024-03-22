@@ -28,17 +28,24 @@ a {
 main {
     width: 100%;
     height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
 }
 
-article {
-    padding: 20px;
+aside {
+    width: 20%;
     border: 1px solid #fff;
 }
 
-.users, .send
+.content {
+    width: 80%;
+}
+
+.chat {
+    border: 1px solid #fff;
+    height: 80%;
+}
 
 .send {
-    grid-column: span 2;
+    border: 1px solid #fff;
+    height: 20%;
 }
