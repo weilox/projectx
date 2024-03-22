@@ -71,7 +71,6 @@ article {
     padding: 9px 30px;
     width: 300px;
     cursor: pointer;
-    border-radius: 15px;
     font-family: cursive;
     transition: .3s;
     border: none;
@@ -85,4 +84,8 @@ article {
 
 .btn:hover {
     background-color: rgba(0, 50, 255, .7);
+}
+
+.password {
+    padding: 15px;
 }

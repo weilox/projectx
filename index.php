@@ -27,9 +27,8 @@ if(isset($_POST["creat"])){
             <div class="neon">
                 Hello,
             </div>
-            <input type="text" name="pass">
             <div class="buttonbox">
-                <input type="text" name="pass2" >
+                <input type="text" placeholder="Enter password" class="password">
                 <button name="creat" class="btn">Create Room</button>
             </div>
             
