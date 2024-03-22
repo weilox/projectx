@@ -29,7 +29,7 @@ if(isset($_POST["creat"])){
             </div>
             <div class="buttonbox">
                 <input type="text" placeholder="Enter password" class="password">
-                <button name="creat" class="btn">Create Room</button>
+                <button name="creat" class="btn" autocomplete="off">Create Room</button>
             </div>
             
         </article>
