@@ -29,6 +29,7 @@ main {
 
 aside {
     width: 20%;
+    background-color: #191919;
 }
 
 .content {
@@ -58,7 +59,7 @@ aside {
 }
 
 .user {
-    height: 50px;
+    height: 60px;
     display: flex;
     align-items: center;
 }
