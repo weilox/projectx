@@ -1,22 +1,4 @@
-<?php
-if(isset($_POST["creat"])){
-    if($_POST["pass"]){
-        $token = bin2hex(random_bytes(16));
-        mkdir($token,0777);
-        print("<input class='link' type='text' value='".$token."'>");
-        $json=array(
-            "pass" => $_POST["pass"]
-        );
-        $json=json_encode($json);
-        file_put_contents("".$token."/settings.json", $json, FILE_APPEND);
-    }
-    else{
-        print("<p class='error'>şifre gir</p>");
-    }
-}
 
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,6 +18,25 @@ if(isset($_POST["creat"])){
                 <input name="pass" type="text" placeholder="Enter password" class="password">
                 <button name="creat" class="btn">Create Room</button>
             </div>
+            <?php
+                if(isset($_POST["creat"])){
+                    if($_POST["pass"]){
+                        $token = bin2hex(random_bytes(16));
+                        mkdir($token,0777);
+                        print("<a class='link' href='".$token."'>odaya gir</a>");
+                        $json=array(
+                            "pass" => $_POST["pass"]
+                        );
+                        $json=json_encode($json);
+                        file_put_contents("".$token."/settings.json", $json, FILE_APPEND);
+                    }
+                    else{
+                        print("<script>alert('lütfen şifre giriniz.')</script>");
+                    }
+                }
+
+
+                ?>
             
         </article>
     </main>
