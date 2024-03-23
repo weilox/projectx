@@ -8,25 +8,11 @@
     <title>Room x</title>
 </head>
 <body>
-    <form action="room.php" method="POST">
-    <main>
-        <aside class="users">
-            <div class="delete">
-                <a href="#">Delete Chat</a>
-            </div>
-            <div class="user">
-                <i class="fa-solid fa-user"></i>
-                <p>user1</p>
-            </div>
-        </aside>
-        <div class="content">
-            <article class="chat" id="chat"></article>
+    <form action="m.php" method="POST">
             <article class="send">
                 <input type="text" name="text" autocomplete="off" placeholder="Enter a message" autofocus>
             </article>
-        </div>
-    </main>
-    <script src="/scripts/room.js"></script>
+
 </form>
 </body>
 </html>
