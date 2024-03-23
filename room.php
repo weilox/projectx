@@ -30,7 +30,7 @@
         <div class="content">
             <article class="chat" id="chat"></article>
             <article class="send">
-                <input type="text" name="text" autocomplete="off" placeholder="Enter a message" autofocus>
+                <iframe src="m.php" width="100%"></iframe>
             </article>
         </div>
     </main>
@@ -38,10 +38,3 @@
 </form>
 </body>
 </html>
-
-<?php
-if($_POST["text"]){
-    $text = $_POST["text"];
-    file_put_contents("messsages.txt",$text .PHP_EOL, FILE_APPEND);
-}
-?>
