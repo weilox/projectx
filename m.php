@@ -19,7 +19,7 @@
                 <input type="text" name="text" autocomplete="off" placeholder="Enter a message" id="send">
             </article>
 
-</form>
+    </form>
 </body>
 </html>
 
