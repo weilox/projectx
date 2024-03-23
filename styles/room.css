@@ -34,7 +34,6 @@ main {
 aside {
     width: 20%;
     border: 1px solid #fff;
-
 }
 
 .content {
@@ -47,12 +46,12 @@ aside {
     display: flex;
     flex-direction: column;
     overflow: auto;
+   padding: 0px 0px 20px 0px;
 }
 
 .send {
     height: 7%;
     display: flex;
-
 }
 
 .users h2 {
@@ -70,12 +69,19 @@ aside {
 
 .send input:nth-child(1) {
     height: 100%;
-    width: 85%;
+    width: 100%;
     padding: 0px 20px 0px 20px;
+    background-color: #202020;
+    border: none;
+    outline: none;
+    color: #fff;
 }
 
-.send input:nth-child(2) {
-    width: 15%;
-    background-color: blue;
+.message {
+    padding: 10px;
+}
+
+.message p {
     color: #fff;
+    letter-spacing: 1.2px;
 }

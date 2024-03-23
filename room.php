@@ -13,11 +13,105 @@
         </aside>
         <div class="content">
             <article class="chat">
-
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
             </article>
             <article class="send">
-                <input type="text" autocomplete="off" autofocus>
-                <input type="button" value="Send">
+                <input type="text" autocomplete="off" placeholder="Enter a message" autofocus>
             </article>
         </div>
     </main>
