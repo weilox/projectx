@@ -95,3 +95,11 @@ aside {
     letter-spacing: 1.2px;
     line-height: 25px;
 }
+
+.delete a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px 25px 0px;
+    background-color: #252525;
+}
