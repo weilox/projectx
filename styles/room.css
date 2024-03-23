@@ -33,7 +33,6 @@ main {
 
 aside {
     width: 20%;
-    border: 1px solid #fff;
 }
 
 .content {
@@ -41,11 +40,22 @@ aside {
 }
 
 .chat {
-    border: 1px solid #fff;
     height: 80%;
 }
 
 .send {
-    border: 1px solid #fff;
     height: 20%;
+}
+
+.users h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    margin: 30px 0px 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.user {
+    border: 1px solid #fff;
+    height: 50px;
 }

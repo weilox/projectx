@@ -8,10 +8,18 @@
 </head>
 <body>
     <main>
-        <aside></aside>
+        <aside class="users">
+            <div class="user">
+
+            </div>
+        </aside>
         <div class="content">
-            <article class="chat"></article>
-            <article class="send"></article>
+            <article class="chat">
+
+            </article>
+            <article class="send">
+                
+            </article>
         </div>
     </main>
 </body>

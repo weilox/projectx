@@ -15,7 +15,7 @@
                 Hello,
             </div>
             <div class="buttonbox">
-                <input name="pass" type="text" placeholder="Enter password" class="password">
+                <input name="pass" type="text" placeholder="Enter password" class="password" autocomplete="off">
                 <button name="creat" class="btn">Create Room</button>
             </div>
             <?php
