@@ -30,7 +30,7 @@
         <div class="content">
             <article class="chat" id="chat"></article>
             <article class="send">
-                <iframe src="m.php" width="100%"></iframe>
+                <iframe src="m.php" width="100%" height="100%"></iframe>
             </article>
         </div>
     </main>
