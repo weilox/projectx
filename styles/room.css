@@ -29,11 +29,12 @@ main {
 
 aside {
     width: 20%;
+    display: none;
     background-color: #191919;
 }
 
 .content {
-    width: 80%;
+    width: 100%;
 }
 
 .send {
@@ -79,6 +80,7 @@ aside {
 
 .chat {
     height: 93%;
+    
     display: flex;
     flex-direction: column;
     overflow-y: auto;
