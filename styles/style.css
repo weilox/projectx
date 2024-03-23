@@ -85,3 +85,17 @@ article {
 .password {
     padding: 5px 20px 5px 20px;
 }
+
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: blue;
+    font-family: cursive;
+    transition: .3s;
+}
+
+.link:hover {
+    background-color: rgba(0, 50, 255, .7);
+}

@@ -23,7 +23,7 @@
                     if($_POST["pass"]){
                         $token = bin2hex(random_bytes(16));
                         mkdir($token,0777);
-                        print("<a class='link' href='".$token."'>odaya gir</a>");
+                        print("<a class='link' href='".$token."'>Join Room</a>");
                         $json=array(
                             "pass" => $_POST["pass"]
                         );
