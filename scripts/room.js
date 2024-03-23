@@ -43,4 +43,4 @@ function chatInit() {
 }
 
 // Belirli bir süre sonra tekrar çağır
-setInterval(chatInit, 200);
+setInterval(chatInit, 1000);
