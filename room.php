@@ -12,7 +12,103 @@
 
         </aside>
         <div class="content">
-            <article class="chat">
+            <article class="chat" id="chat">
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>Selam, ne yapıyorsun?</p>
+                </div>
+                <div class="message">
+                    <p>İyiyim, Sen ne yapıyorsun?</p>
+                </div>
                 <div class="message">
                     <p>Selam, ne yapıyorsun?</p>
                 </div>
@@ -115,5 +211,7 @@
             </article>
         </div>
     </main>
+
+    <script src="/scripts/room.js"></script>
 </body>
 </html>
