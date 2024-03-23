@@ -9,16 +9,15 @@
 <body>
     <main>
         <aside class="users">
-            <div class="user">
 
-            </div>
         </aside>
         <div class="content">
             <article class="chat">
 
             </article>
             <article class="send">
-                
+                <input type="text" autocomplete="off" autofocus>
+                <input type="button" value="Send">
             </article>
         </div>
     </main>
