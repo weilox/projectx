@@ -1,10 +1,18 @@
 .send input:nth-child(1) {
     height: 100%;
-    width: 95%;
-    padding: 0px 20px 0px 20px;
+    width: 70%;
+    padding: 0px 0px 0px 0px;
     background-color: #202020;
     border: none;
     outline: none;
     color: #fff;
     border: 5px solid #202020;
+}
+.send{
+    width: 70%;
+}
+iframe{
+    border: none;
+    background-color: #202020;
+    border-color: #202020;
 }
