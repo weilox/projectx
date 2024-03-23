@@ -31,8 +31,11 @@ function chatInit() {
         // Her bir metin parçası için yeni bir messages divi oluştur ve içine ekle
         messagesArray.forEach(message => {
           const messageDiv = document.createElement('div');
+          const p = document.createElement('p');
           messageDiv.classList.add('message');
-          messageDiv.textContent = message;
+          messageDiv.appendChild(p);
+
+          p.textContent = message;
           chatDiv.appendChild(messageDiv);
         });
       })
@@ -70,14 +73,10 @@ setInterval(chatInit, 1000);
             </div>
         </aside>
         <div class="content">
-<<<<<<< HEAD
             <article class="chat" id="chat">
                 <div class="message">
                     <p>Örnek mesajdır.</p>
                 </div>
-=======
-            <article class="chat">
->>>>>>> 7e794c76ff652d8560d2be834a846a2adc0a0818
             </article>
             <article class="send">
                 <input type="text" name="text" autocomplete="off" placeholder="Enter a message" autofocus>
