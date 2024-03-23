@@ -33,7 +33,6 @@ main {
 
 aside {
     width: 20%;
-    border: 1px solid #fff;
 }
 
 .content {
@@ -42,11 +41,10 @@ aside {
 
 .chat {
     height: 93%;
-    border: 1px solid #fff;
     display: flex;
     flex-direction: column;
     overflow: auto;
-   padding: 0px 0px 20px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .send {
@@ -78,7 +76,7 @@ aside {
 }
 
 .message {
-    padding: 10px;
+    padding: 15px;
 }
 
 .message p {
