@@ -51,6 +51,13 @@ function chatInit() {
 // Belirli bir süre sonra tekrar çağır
 setInterval(chatInit, 1000);
 
+
+const chat = document.getElementById('chat');
+chat.scrollTop = chat.scrollHeight;
+
+window.onload = function() {
+  chat.scrollTop = chat.scrollHeight;
+};
 </script>
 
     <form action="room.php" method="POST">
@@ -73,11 +80,7 @@ setInterval(chatInit, 1000);
             </div>
         </aside>
         <div class="content">
-            <article class="chat" id="chat">
-                <div class="message">
-                    <p>Örnek mesajdır.</p>
-                </div>
-            </article>
+            <article class="chat" id="chat"></article>
             <article class="send">
                 <input type="text" name="text" autocomplete="off" placeholder="Enter a message" autofocus>
             </article>
