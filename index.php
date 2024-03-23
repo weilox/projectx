@@ -4,6 +4,11 @@ if(isset($_POST["creat"])){
         $token = bin2hex(random_bytes(16));
         mkdir($token,0777);
         print("<input class='link' type='text' value='".$token."'>");
+        $json=array(
+            "pass" => $_POST["pass"]
+        );
+        $json=json_encode($json);
+        file_put_contents("".$token."/settings.json", $json, FILE_APPEND);
     }
     else{
         print("<p class='error'>şifre gir</p>");
@@ -28,8 +33,8 @@ if(isset($_POST["creat"])){
                 Hello,
             </div>
             <div class="buttonbox">
-                <input type="text" placeholder="Enter password" class="password">
-                <button name="creat" class="btn" autocomplete="off">Create Room</button>
+                <input name="pass" type="text" placeholder="Enter password" class="password">
+                <button name="creat" class="btn">Create Room</button>
             </div>
             
         </article>
