@@ -76,11 +76,11 @@ aside {
     border: none;
     outline: none;
     color: #fff;
+    overflow: hidden;
 }
 
 .chat {
     height: 93%;
-    
     display: flex;
     flex-direction: column;
     overflow-y: auto;
