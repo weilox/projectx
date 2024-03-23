@@ -6,23 +6,15 @@
 }
 
 .send input:nth-child(1) {
-<<<<<<< HEAD
-<<<<<<< HEAD
     height: 100%;
     width: 70%;
     padding: 0px 0px 0px 0px;
-=======
     width: 100%;
->>>>>>> 1d503a641d902898dd06abcb724e6ef8a7bb3d98
-=======
     width: 100%;
->>>>>>> c9127f8934819b3c419e7cc0ea6796505d3dd1d4
     background-color: #202020;
     border: none;
     outline: none;
     color: #fff;
-<<<<<<< HEAD
-<<<<<<< HEAD
     border: 5px solid #202020;
 }
 .send{
@@ -32,12 +24,8 @@ iframe{
     border: none;
     background-color: #202020;
     border-color: #202020;
-=======
     height: 50px;
     padding: 0px 20px;
->>>>>>> 1d503a641d902898dd06abcb724e6ef8a7bb3d98
-=======
     height: 60px;
     padding: 0px 20px;
->>>>>>> c9127f8934819b3c419e7cc0ea6796505d3dd1d4
 }
